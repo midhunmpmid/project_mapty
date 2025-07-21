@@ -41,6 +41,7 @@ if (navigator.geolocation)
               className: 'running-popup',
             })
           )
+          .setPopupContent('Workout')
           .openPopup();
       });
     },
